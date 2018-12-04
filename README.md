@@ -32,15 +32,16 @@ This repo is a collection of the code and a limited amount of the data I collect
 
 8. I analyzed bots observed tweeting during the controversial [Brett Kavanaugh Supreme Court Nomination](https://en.wikipedia.org/wiki/Brett_Kavanaugh#Sexual_assault_allegations) and compared them to the bots previously observed.
 
-![Alt Text](https://github.com/dtroupe18/Thesis-Survey-Of-Political-Bots-On-Twitter/blob/master/Images/Before%20Kavanaugh%20Account%20Age%20Distribution.png)
-
-![Alt Text](https://github.com/dtroupe18/Thesis-Survey-Of-Political-Bots-On-Twitter/blob/master/Images/Kavanaugh%20Account%20Age%20Distribution.png)
+![Alt Text](https://github.com/dtroupe18/Thesis-Survey-Of-Political-Bots-On-Twitter/blob/master/Images/Account%20Age%20Distribution.png)
 
 9. Results
 
 **New political bot accounts are created in real-time to respond to political crises**
 
-![Alt Text](https://github.com/dtroupe18/Thesis-Survey-Of-Political-Bots-On-Twitter/blob/master/Images/Account%20Age%20Distribution.png)
+![Alt Text](https://github.com/dtroupe18/Thesis-Survey-Of-Political-Bots-On-Twitter/blob/master/Images/Before%20Kavanaugh%20Account%20Age%20Distribution.png)
+
+![Alt Text](https://github.com/dtroupe18/Thesis-Survey-Of-Political-Bots-On-Twitter/blob/master/Images/Kavanaugh%20Account%20Age%20Distribution.png)
+
 
 **Political bots are more active during these crises**
 
