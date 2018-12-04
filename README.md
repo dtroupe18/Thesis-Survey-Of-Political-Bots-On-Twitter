@@ -20,18 +20,65 @@ This repo is a collection of the code and a limited amount of the data I collect
 
 5. I trained an [initial model](https://github.com/dtroupe18/Thesis-Survey-Of-Political-Bots-On-Twitter/blob/master/MachineLearningNotebooks/Initial%20ML%20Model.ipynb) to classify Twitter accounts using only their [profile](https://developer.twitter.com/en/docs/tweets/data-dictionary/overview/user-object.html) information.
 
-6. I order to assess Twitter's response to political bots I rechecked every account initially classified at a bot (~21,000) using Botometer a again. This allowed me to obtain a second CAP score some accounts remained bots (~7,500), other accounts were removed presumably due to bot behavior (~9,000), and a surprising amount were no longer classified as bots (~3,500).
+6. I order to assess Twitter's response to political bots I rechecked every account initially classified at a bot (~21,418) using Botometer a again. This allowed me to obtain a second CAP score some accounts remained bots (~7,496 or ~35%), other accounts were removed presumably due to bot behavior (9,126 or ~43%), and a surprising amount were no longer classified as bots (3,378 or ~16%) classified as human and (1,417 or ~6%) as unknown.
+
+![Alt Text](https://github.com/dtroupe18/Thesis-Survey-Of-Political-Bots-On-Twitter/blob/master/Images/Old%20CAP%20vs%20New%20CAP%20for%20Bots.png)
+
 
 7. I then trained [new models](https://github.com/dtroupe18/Thesis-Survey-Of-Political-Bots-On-Twitter/tree/master/MachineLearningNotebooks) using only the removed bots, and only twice classified bots.
 
 ![Alt Text](https://github.com/dtroupe18/Thesis-Survey-Of-Political-Bots-On-Twitter/blob/master/Images/ModelAccuracy.png)
 
 
-8. I analyzed bots observed tweeting during the Brett Kavanaugh Supreme Court nomination and compared them to the bots previously observed. 
+8. I analyzed bots observed tweeting during the controversial [Brett Kavanaugh Supreme Court Nomination](https://en.wikipedia.org/wiki/Brett_Kavanaugh#Sexual_assault_allegations) and compared them to the bots previously observed.
 
-9. Results - new political bot accounts are created in real-time to respond to political crises, political bots are more active during these crises, the number of tweets an account has favorited is a strong indicator of bot status.
+![Alt Text](https://github.com/dtroupe18/Thesis-Survey-Of-Political-Bots-On-Twitter/blob/master/Images/Before%20Kavanaugh%20Account%20Age%20Distribution.png)
 
-![Alt Text](https://github.com/dtroupe18/Thesis-Survey-Of-Political-Bots-On-Twitter/blob/master/Images/Random%20Forest%20Feature%20Importance%20For%20Removed%20Accounts.png)
+![Alt Text](https://github.com/dtroupe18/Thesis-Survey-Of-Political-Bots-On-Twitter/blob/master/Images/Kavanaugh%20Account%20Age%20Distribution.png)
+
+9. Results
+
+**New political bot accounts are created in real-time to respond to political crises**
+
+![Alt Text](https://github.com/dtroupe18/Thesis-Survey-Of-Political-Bots-On-Twitter/blob/master/Images/Account%20Age%20Distribution.png)
+
+**Political bots are more active during these crises**
+
+#### Before Kavanaugh Nomination:
+
+- 408,220 total accounts
+- 9,991 bot accounts
+- 775,609 tweets sent
+**- Bots sent  24,568  tweets or  3.17 % of tweets**
+**- Percentage of total accounts that are bots = 2.45%**
+- Percentage of total accounts that are humans = 96.42%
+- Percentage of total accounts that are unknown = 1.13%
+- Overall average account age in days  1,686.679991181226
+- Average bot account age in days  698.6344710239215
+- Average human account age in days  1,719.1844113612112
+- Overall average CAP score  0.05379225294931851
+- Average human CAP score  0.03217073246946307
+- Average bot CAP score  0.7198592500519072
+
+#### During Kavanaugh Nomination:
+
+- 287,307 total accounts
+- 11, 427 bot accounts
+- 412,814 tweets sent
+**- 16,601 tweets or  4.02 % of tweets**
+**- Percentage of total accounts that are bots = 3.98%**
+- Percentage of total accounts that are humans = 94.12%
+- Percentage of total accounts that are unknown = 1.9%
+- Overall average account age in days  1,599.7171736156795
+- Average bot account age in days  613.3258948105364
+- Average human account age in days  1,656.9227358455678
+- Overall average CAP score  0.07367285204538905
+- Average human CAP score  0.039484313069561155
+- Average bot CAP score  0.6990314467440416
+
+**The number of tweets an account has favorited is a strong indicator of bot status**
+
+![Alt Text](https://github.com/dtroupe18/Thesis-Survey-Of-Political-Bots-On-Twitter/blob/master/Images/Average%20Tweets%20Per%20Day.png)
 
 
 
