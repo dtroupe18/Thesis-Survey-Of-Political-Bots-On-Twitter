@@ -79,7 +79,7 @@ This repo is a collection of the code and a limited amount of the data I collect
 
 **The number of tweets an account has favorited is a strong indicator of bot status**
 
-![Alt Text](https://github.com/dtroupe18/Thesis-Survey-Of-Political-Bots-On-Twitter/blob/master/Images/Average%20Tweets%20Per%20Day.png)
+![Alt Text](https://github.com/dtroupe18/Thesis-Survey-Of-Political-Bots-On-Twitter/blob/master/Images/Random%20Forest%20Feature%20Importance%20For%20Removed%20Accounts.png)
 
 
 
