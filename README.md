@@ -2,8 +2,20 @@
 
 This repo is a collection of the code and a limited amount of the data I collected for my Masters Thesis.
 
-**TLDR** - I used machine learning to classify political Twitter accounts as bot or human based on only their user profile.
 
+
+## Overview
+
+1. I used [Botcheck](https://botcheck.me/) to find hashtags that were popular with political bots on Twitter. 
+
+![Alt Text](https://github.com/dtroupe18/Thesis-Survey-Of-Political-Bots-On-Twitter/blob/master/Images/TopHashTagsSample.png).
+
+2. I filtered the Twitter Stream on those popular hashtags using [this script](https://github.com/dtroupe18/Thesis-Survey-Of-Political-Bots-On-Twitter/blob/master/StreamingCode/start_stream.py).
+
+3. After collecting Tweets and User profiles I obtained each accounts bot or human classification using [Botometer](https://botometer.iuni.iu.edu/#!/) via [this script](https://github.com/dtroupe18/Thesis-Survey-Of-Political-Bots-On-Twitter/blob/master/BotometerCode/start_botometer.py).
+
+
+**TLDR** - I used machine learning to classify political Twitter accounts as bot or human based on only their user profile.
 
 
 
