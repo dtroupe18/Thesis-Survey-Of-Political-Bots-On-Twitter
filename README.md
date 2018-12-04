@@ -43,7 +43,7 @@ This repo is a collection of the code and a limited amount of the data I collect
 
 **Political bots are more active during these crises**
 
-#### Before Kavanaugh Nomination:
+###### Before Kavanaugh Nomination:
 
 - 408,220 total accounts
 - 9,991 bot accounts
@@ -59,7 +59,7 @@ This repo is a collection of the code and a limited amount of the data I collect
 - Average human CAP score  0.03217073246946307
 - Average bot CAP score  0.7198592500519072
 
-#### During Kavanaugh Nomination:
+###### During Kavanaugh Nomination:
 
 - 287,307 total accounts
 - 11, 427 bot accounts
