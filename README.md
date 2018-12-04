@@ -38,8 +38,6 @@ This repo is a collection of the code and a limited amount of the data I collect
 
 **New political bot accounts are created in real-time to respond to political crises**
 
-![Alt Text](https://github.com/dtroupe18/Thesis-Survey-Of-Political-Bots-On-Twitter/blob/master/Images/Before%20Kavanaugh%20Account%20Age%20Distribution.png)
-
 ![Alt Text](https://github.com/dtroupe18/Thesis-Survey-Of-Political-Bots-On-Twitter/blob/master/Images/Kavanaugh%20Account%20Age%20Distribution.png)
 
 
