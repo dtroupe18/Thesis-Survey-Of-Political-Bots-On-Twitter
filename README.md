@@ -82,12 +82,12 @@ Bots are software applications that execute automated tasks called scripts over 
 [Sample Data on Google Drive](https://drive.google.com/drive/folders/1h5TKuJu9VH5C_AcOp47l5f_Mw5QBuKl1?usp=sharing)
 
 * Data Sample
-    * AllUserProfilesWithCapScores.csv - Approximately 700,000 Twitter accounts with CAP scores from Botometer.
-    * AllBots.csv - All Twitter accounts with a CAP score over 0.53 (bot threshold).
-    * AllRemovedBots.csv - All Twitter bots that were removed from Twitter during data collection.
-    * StillActiveBots.csv - All Twitter bots that were not removed from Twitter during data collection.
-    * RemovedAndStillActiveBots.csv - Combined file with all removed and still active bots.
-    * StillActiveNotBot.csv - Accounts that were originally classified as a bot but now have CAP < 0.53 (After recheck).
-    * StillActiveUnknownStatus.csv - Accounts originally classified as a bot, but now have a CAP between 0.4 - 0.53.
+    * **AllUserProfilesWithCapScores.csv** - Approximately 700,000 Twitter accounts with CAP scores from Botometer.
+    * **AllBots.csv** - All Twitter accounts with a CAP score over 0.53 (bot threshold).
+    * **AllRemovedBots.csv** - All Twitter bots that were removed from Twitter during data collection.
+    * **StillActiveBots.csv** - All Twitter bots that were not removed from Twitter during data collection.
+    * **RemovedAndStillActiveBots.csv** - Combined file with all removed and still active bots.
+    * **StillActiveNotBot.csv** - Accounts that were originally classified as a bot but now have CAP < 0.53 (After recheck).
+    * **StillActiveUnknownStatus.csv** - Accounts originally classified as a bot, but now have a CAP between 0.4 - 0.53.
 
 
