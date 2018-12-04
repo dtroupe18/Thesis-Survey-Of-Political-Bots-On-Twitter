@@ -20,7 +20,7 @@ This repo is a collection of the code and a limited amount of the data I collect
 
 5. I trained an [initial model](https://github.com/dtroupe18/Thesis-Survey-Of-Political-Bots-On-Twitter/blob/master/MachineLearningNotebooks/Initial%20ML%20Model.ipynb) to classify Twitter accounts using only their [profile](https://developer.twitter.com/en/docs/tweets/data-dictionary/overview/user-object.html) information.
 
-6. I order to assess Twitter's response to political bots I rechecked every account initially classified at a bot (~21,418) using Botometer a again. This allowed me to obtain a second CAP score some accounts remained bots (~7,496 or ~35%), other accounts were removed presumably due to bot behavior (9,126 or ~43%), and a surprising amount were no longer classified as bots (3,378 or ~16%) classified as human and (1,417 or ~6%) as unknown.
+6. I order to assess Twitter's response to political bots I rechecked every account initially classified at a bot (21,418) using Botometer a again. This allowed me to obtain a second CAP score some accounts remained bots (7,496 or ~35%), other accounts were removed presumably due to bot behavior (9,126 or ~43%), and a surprising amount were no longer classified as bots (3,378 or ~16%) classified as human and (1,417 or ~6%) as unknown.
 
 ![Alt Text](https://github.com/dtroupe18/Thesis-Survey-Of-Political-Bots-On-Twitter/blob/master/Images/Old%20CAP%20vs%20New%20CAP%20for%20Bots.png)
 
@@ -49,8 +49,8 @@ This repo is a collection of the code and a limited amount of the data I collect
 - 408,220 total accounts
 - 9,991 bot accounts
 - 775,609 tweets sent
-**- Bots sent  24,568  tweets or  3.17 % of tweets**
-**- Percentage of total accounts that are bots = 2.45%**
+- **Bots sent  24,568  tweets or  3.17 % of tweets**
+- **Percentage of total accounts that are bots = 2.45%**
 - Percentage of total accounts that are humans = 96.42%
 - Percentage of total accounts that are unknown = 1.13%
 - Overall average account age in days  1,686.679991181226
@@ -65,8 +65,8 @@ This repo is a collection of the code and a limited amount of the data I collect
 - 287,307 total accounts
 - 11, 427 bot accounts
 - 412,814 tweets sent
-**- 16,601 tweets or  4.02 % of tweets**
-**- Percentage of total accounts that are bots = 3.98%**
+- **16,601 tweets or  4.02 % of tweets**
+- **Percentage of total accounts that are bots = 3.98%**
 - Percentage of total accounts that are humans = 94.12%
 - Percentage of total accounts that are unknown = 1.9%
 - Overall average account age in days  1,599.7171736156795
@@ -134,7 +134,7 @@ Bots are software applications that execute automated tasks called scripts over 
     * **AllRemovedBots.csv** - All Twitter bots that were removed from Twitter during data collection.
     * **StillActiveBots.csv** - All Twitter bots that were not removed from Twitter during data collection.
     * **RemovedAndStillActiveBots.csv** - Combined file with all removed and still active bots.
-    * **StillActiveNotBot.csv** - Accounts that were originally classified as a bot but now have CAP < 0.53 (After recheck).
+    * **StillActiveNotBot.csv** - Accounts that were initially classified as a bot but now have CAP < 0.53.
     * **StillActiveUnknownStatus.csv** - Accounts originally classified as a bot, but now have a CAP between 0.4 - 0.53.
 
 
